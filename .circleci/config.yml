@@ -8,7 +8,7 @@ jobs:
       - image: circleci/golang:1.8
     branches:
       only:
-        - master
+        - chapter2
     steps:
       - checkout
       - setup_remote_docker
